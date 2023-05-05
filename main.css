@@ -1,0 +1,290 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.left-content{
+    width: 30%;
+    background: url(./assets/img/bg_left-content.png) no-repeat center /100% 100%;
+    padding: 50px 0 50px 8%;
+    box-sizing: border-box;
+}
+
+.left-content .condidate-image{
+    width: 100%;
+    /* padding: 100px 0 100px 10%; */
+    box-sizing: border-box;
+}
+.left-content .condidate-image img{
+    width: 60%;
+    border: 10px solid lightgrey;
+    border-radius: 5px;
+}
+.left-content .condidate-contacts{
+    width: 100%;
+    /* padding: 0 0 0 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.left-content .condidate-contacts h2{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 50px;
+}
+.left-content .condidate-contacts a{
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.left-content .condidate-contacts a img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.left-content .condidate-degree{
+    width: 100%;
+    /* padding: 100px 0 50px 10%; */
+    box-sizing: border-box;
+}
+.left-content .condidate-degree h2{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 50px;
+}
+.left-content .condidate-degree .condidate-degree-item{
+    margin: 20px 0 0 0;
+    color: white;
+}
+.left-content .condidate-skills{
+    width: 100%;
+    /* padding: 100px 30px 100px 10%; */
+    padding-right: 30px;
+    color: white;
+    box-sizing: border-box;
+}
+.left-content .condidate-skills h2{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 50px;
+}
+.left-content .condidate-skills .condidate-skills-item{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+
+
+
+
+
+
+.wrapper .right-content{
+    width: 70%;
+    background: url(./assets/img/bg_right-content.png) no-repeat center /100% 100%;
+    box-sizing: border-box;
+    /* display: flex; */
+    /* margin-left: 30px; */
+    
+}
+.wrapper .right-content .candidate-name .triangle {
+    width: 60px;
+    position: relative;
+    top: -15px;
+    left: -10px;
+}
+.candidate-name {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    /* padding: 0 0 0 0; */
+}
+.wrapper .right-content .candidate-name .candidate-name-item p {
+    margin: 0;
+    color: #c2c2c2;
+    font-weight: normal;
+    font-size: 25px;
+}
+.candidate-name img {
+    width: 60px;
+
+}
+.candidate-name .candidate-name-item {
+    margin: 0 0 0 30px;
+}
+.candidate-name .candidate-name-item h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    
+
+}
+.wrapper .right-content .candidate-name .candidate-name-item h1 span{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.candidate-name .candidate-name-item p {
+    font-size: 30px;
+    margin: 0;
+}
+.wrapper .right-content .candidate-description {
+    /* height: 250px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20% 0 10%;
+    box-sizing: border-box;
+    text-align: justify;
+    justify-content: space-between;
+    
+}
+.wrapper .right-content .candidate-description p {
+    color: grey;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.wrapper .right-content .candidate-description h2 {
+    margin: 0;
+    color: rgb(68, 108, 182);
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.wrapper .right-content .candidate-description hr {
+    color: gray;
+    width: 100%;
+}
+
+.wrapper .right-content .candidate-experience {
+    /* height: 750px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 20% 0 10%;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.wrapper .right-content .candidate-experience .title {
+    margin: 0;
+    color: rgb(68, 108, 182);
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.wrapper .right-content .candidate-experience .candidate-experience-item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.wrapper .right-content .candidate-experience .candidate-experience-item .position {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(7, 1, 38);
+}
+.wrapper .right-content .candidate-experience .candidate-experience-item .position h1 {
+    font-size: 18px;
+
+}
+.wrapper .right-content .candidate-experience .candidate-experience-item .position p {
+    color: rgb(68, 108, 182);
+    font-size: 18px;
+    margin: 0;
+}
+
+.wrapper .right-content .candidate-experience .candidate-experience-item p {
+    color: grey;
+    font-size: 18px;
+    line-height: 24px;
+}
+.wrapper .right-content .candidate-experience .candidate-experience-item h1 {
+    font-size: 18px;
+    margin: 2px;
+}
+
+.wrapper .right-content .footer {
+    height: 100px;
+    display: flex;
+    width: 100%;
+    padding: 0 20% 0 10%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wrapper .right-content .footer p{
+    color: rgb(7, 1, 38);
+    font-size: 18px;
+    font-weight: bold;
+}
+.wrapper .right-content .footer img {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+
+@media (max-width: 1281px) {
+    .wrapper .left-content .candidate-image img {
+        max-width: 240px;
+        /*height: 50%;*/
+        border-radius: 20px;
+        border: 10px solid white;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .left-content{
+        padding: 3% 0 100px 3%;
+    }
+    .left-content .condidate-image .photo {
+        display: flex;
+        justify-content: center;
+        padding: 0 10% 0 0;
+    }
+    .left-content .condidate-contacts h2{
+        letter-spacing: 1px;
+    }
+    .condidate-degree h2{
+        letter-spacing: 1px;
+    }
+    .left-content .condidate-skills h2{
+        letter-spacing: 0;
+    }
+}
+@media (max-width: 480px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .wrapper .left-content {
+        width: 100%;
+    }
+    .wrapper .right-content {
+        width: 100%;
+    }
+    
+}
